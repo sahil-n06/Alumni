@@ -1,0 +1,36 @@
+npx create-next-app@latest {https://nextjs.org/docs/getting-started/installation}{
+    typescript -- yes
+    eslint -- no 
+    tailwind css --yes
+    src/ directory --no
+    app router --yes
+    import alias --no
+}
+npm run dev
+
+theek se run hone ke baad{
+    npx shadcn-ui@latest init (https://ui.shadcn.com/docs/installation/next){
+        default
+        slate
+        enter
+        enter
+        tailwind.config.ts {sab jgh enter krrdo prr yaha pe js ki jgh ts hoga}
+        enter krrte raho
+        app ke andar global.css ko mere global.css se update krrdo
+        or tailwind.config.ts ko bhi update krrdo
+        then open the terminal and type {
+            npm install uploadthing @uploadthing/react {iska kaam hai agar ham koi cheez upload krrna chahte hai uske liye}
+
+        }
+        after making all the changes and copying the code {
+            type in terminal{
+                npm install @clerk/nextjs
+                and rest of things can be done by reading the document{
+                    https://dub.sh/j4oY3Io
+                }
+            }
+        }
+    }
+}
+
+{run this for the icons used in footer => npm install react-icons --save}
