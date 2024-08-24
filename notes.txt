@@ -34,3 +34,6 @@ theek se run hone ke baad{
 }
 
 {run this for the icons used in footer => npm install react-icons --save}
+npm install mongodb mongoose
+npm install svix{https://clerk.com/docs/integrations/webhooks/sync-data} copy the route.ts and paste in api>webhook>clerk>route.ts
+npm install query-string
